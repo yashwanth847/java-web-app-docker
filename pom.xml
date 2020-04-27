@@ -110,6 +110,18 @@
 	      <url>http://18.144.64.28:8081/repository/simpleapp-release/</url>
 	    </snapshotRepository>
 	</distributionManagement> -->
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://18.144.64.28:8081/repository/simpleapp-release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://54.176.30.246:8081/repository/simpleapp-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement> 
 	
 	<build>
 		<plugins>
